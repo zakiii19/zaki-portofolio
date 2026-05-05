@@ -11,13 +11,19 @@
 
 ## Screenshot: Desktop
 
-[paste screenshot — all sections visible]
+![Desktop screenshot](../assets/Screenshot%20Desktop1.png)
+![Desktop screenshot](../assets/Screenshot%20Desktop2.png)
+![Desktop screenshot](../assets/Screenshot%20Desktop3.png)
 
 ---
 
 ## Screenshot: Mobile
 
-[paste screenshot — responsive, no horizontal scroll]
+![Mobile screenshot](../assets/Screenshot%20Mobile.jpeg),
+![Mobile screenshot](../assets/Screenshot%20Mobile%20(1).jpeg)
+![Mobile screenshot](../assets/Screenshot%20Mobile%20(2).jpeg)
+![Mobile screenshot](../assets/Screenshot%20Mobile%20(3).jpeg)
+![Mobile screenshot](../assets/Screenshot%20Mobile%20(4).jpeg)
 
 ---
 
