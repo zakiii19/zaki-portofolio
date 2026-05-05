@@ -38,3 +38,11 @@ Format yang diinginkan:
 
 - HTML + CSS terpisah
 - kode dengan penjelasan
+
+## Actual Implementation
+- Berkas terpisah: `index.html` dan `style.css`
+- Struktur HTML5 semantic: `header`, `nav`, `main`, `section`, `article`, `footer`
+- Tidak ada `div` non-semantik
+- Responsive mobile-first dengan layout yang baik di layar kecil dan desktop
+- Aksesibilitas dasar: `aria-label`, `focus-visible`, teks link jelas
+- Neobrutalism design: border tegas, shadow block, kontras warna, dan tampilan bold namun bersih

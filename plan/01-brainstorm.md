@@ -5,7 +5,7 @@ Role: UX/UI consultant untuk portfolio developer.
 Task: Bantu brainstorm desain portfolio untuk fresh graduate IT.
 
 Context:
-- Nama: Qolbul Muzai
+- Nama: Qolbul Muzaki
 - Skills: Design Thinking, Prototyping, User Centered Design
 - Target: Startup 
 
@@ -20,7 +20,7 @@ Output:
 4. 1 unique element
 
 ## AI Response 1
-Brainstorm Desain Portfolio untuk Qolbul Muzai
+Brainstorm Desain Portfolio untuk Qolbul Muzaki
 Sebagai UX/UI consultant, saya akan membantu brainstorm desain portfolio berdasarkan konteks Anda sebagai fresh graduate IT dengan skills di Design Thinking, Prototyping, dan User Centered Design. Target audience adalah startup, jadi fokus pada desain yang inovatif, user-friendly, dan efisien. Dengan constraints mobile-first (prioritas tampilan mobile yang responsif) dan simple tapi stand out (minimalis namun menarik perhatian), saya rekomendasikan pendekatan yang clean, modern, dan interaktif untuk menonjolkan kemampuan Anda tanpa overload informasi.
 
 Berikut adalah output brainstorming sesuai permintaan:
@@ -69,6 +69,8 @@ Alasan Struktur: Simple (tidak overload), mobile-first (stacked layout), stand o
 
 4. 1 Unique Element
 Untuk membuat portfolio standout tanpa kompleksitas, tambahkan animated skill icons on scroll. Saat user scroll ke section Skills, ikon (e.g., prototyping tools atau design symbols) muncul dengan fade-in animation dan subtle rotation. Ini menunjukkan kemampuan prototyping Anda secara interaktif, cocok untuk target startup yang menghargai inovasi. Implementasi: Gunakan CSS animation atau library ringan seperti AOS (Animate On Scroll) untuk mobile performance.
+
+Actual implementation saat ini: website dibangun dengan struktur single-page yang dicapai menggunakan semantic HTML5, sticky header navigation, dan layout neobrutalism dengan shadow block cards. Warna yang digunakan adalah violet accent (#6F42C1) dengan aksen pink (#E83E8C), bukan palette hijau/biru yang awalnya diusulkan.
 
 Jika Anda ingin saya refine ini atau implement ke file (e.g., edit 01-brainstorm.md), beri tahu! Misalnya, saya bisa tambahkan mockup sederhana atau code snippet.
 
@@ -189,7 +191,7 @@ Dengan ini, portfolio Anda bukan sekadar "CV online", tapi showcase skills yang 
 ## Key Decisions
 | Decision | Value | Why |
 |----------|-------|-----|
-| Color | Tech Minimalist Palette (Biru & Putih) | Mewakili teknologi dan kepercayaan, profesional untuk startup IT, kontras tinggi untuk readability mobile, standout dengan aksen hijau yang segar. |
-| Typography | Inter for headings, Roboto for body | Modern dan readable di mobile, techy untuk IT, mendukung user-centered design dengan spacing optimal. |
-| Layout | Single-page with vertical scroll | Mobile-first dengan scroll natural, simple navigation, immersive experience untuk showcase prototyping skills. |
-| Style | Minimalist with animated scroll elements | Simple tanpa overload informasi, standout melalui interaktivitas subtle seperti animated icons, mendukung inovasi untuk startup. |
+| Color | Creative Edge palette dengan ungu (#6F42C1), accent pink (#E83E8C), latar belakang abu-abu terang (#E9ECEF) | Menciptakan kontras neobrutalism yang modern dan profesional sekaligus menjaga readability mobile. |
+| Typography | Inter untuk heading dan body | Font tunggal modern yang legible di mobile, cocok dengan HTML5 semantik dan UI/UX portfolio. |
+| Layout | Single-page dengan sticky header nav | Struktur mobile-first dengan scroll vertikal, navigasi sederhana, dan akses cepat untuk recruiter serta tech lead. |
+| Style | Neobrutalism cards + strong borders | Tampilan tegas namun tetap rapi, mendukung brand startup-friendly dan desain front-end yang mudah dibaca. |
