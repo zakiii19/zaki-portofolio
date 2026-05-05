@@ -85,6 +85,45 @@ body > * {
   text-align: center;
 }
 
+.nav-toggle {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+
+.nav-toggle-label {
+  display: none;
+  cursor: pointer;
+  padding: 0.75rem 1rem;
+  border: 2px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-weight: 700;
+  border-radius: var(--radius);
+  margin-bottom: 0.75rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.nav-toggle-label::before {
+  content: "";
+  display: inline-block;
+  width: 1.25rem;
+  height: 0.15rem;
+  background: var(--text);
+  box-shadow: 0 0.35rem 0 0 var(--text), 0 0.7rem 0 0 var(--text);
+}
+
+.nav-toggle-label:hover,
+.nav-toggle-label:focus-visible {
+  background: var(--accent);
+  color: #ffffff;
+  outline: none;
+}
+
 .nav-list a:hover,
 .nav-list a:focus-visible {
   background: var(--accent);
@@ -249,9 +288,29 @@ section > header p {
     margin: 1rem auto;
   }
 
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-toggle-label {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom:  24px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .nav-list {
+    display: none;
     flex-direction: column;
     align-items: stretch;
+    gap: 0.5rem;
+  }
+
+  .nav-toggle:checked + .nav-toggle-label + .nav-list {
+    display: flex;
   }
 
   .nav-list a {

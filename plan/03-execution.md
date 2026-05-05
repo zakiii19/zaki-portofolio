@@ -40,8 +40,35 @@ Buat portfolio satu halaman untuk fresh graduate IT dengan minat di UI/UX menggu
 
 ---
 
-## Step 4: Final check
+## Step 4: Implement hamburger menu for mobile
+
+### Prompt
+Buat hamburger menu yang rapi untuk mobile, gunakan checkbox input hidden dengan label trigger, tampilkan ikon burger dengan teks "Menu" yang centered.
+
+### RTCC-O Check
+- R: ✅ Senior front-end developer dengan keahlian HTML semantik + CSS modern
+- T: ✅ Implementasi hamburger menu mobile yang fungsional
+- C: ✅ CSS-only solution tanpa JavaScript
+- C: ✅ Semantic HTML, accessibility dengan aria-label, visually centered
+- O: ✅ HTML dan CSS terupdate dengan hamburger menu
+
+### AI Response
+Hamburger menu diimplementasikan menggunakan checkbox input hidden (`nav-toggle`) dan label (`nav-toggle-label`). Ikon burger dibuat dengan pseudo-element `::before` menggunakan box-shadow. Menu list hidden by default, muncul saat checkbox checked.
+
+### Review
+- [✅] Mobile navigation? Ya, hamburger menu muncul di mobile (max-width: 600px).
+- [✅] Ikon burger jelas? Ya, ikon menggunakan pseudo-element dengan shadow box.
+- [✅] Teks dan ikon aligned? Ya, flexbox dengan gap dan align-items: center.
+- [✅] Menu functional? Ya, checkbox toggle tanpa JavaScript.
+- Changes: Teks "Menu" ditambahkan kembali dan diposisikan centered di mobile.
+
+---
+
+## Step 5: Final implementation & quality check
 
 ### Notes
-- Nama sudah disesuaikan menjadi Qolbul Muzaki di seluruh halaman.
-- Dokumen plan diselaraskan dengan hasil implementasi website.
+- Semua constraints dipenuhi: semantic HTML, responsive, accessibility, neobrutalism
+- Hamburger menu CSS-only dan tidak menambah complexity
+- Mobile-first approach konsisten dari awal hingga akhir
+- Dokumentasi lengkap di README dan planning files
+

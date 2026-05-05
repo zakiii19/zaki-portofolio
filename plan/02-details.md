@@ -46,3 +46,6 @@ Format yang diinginkan:
 - Responsive mobile-first dengan layout yang baik di layar kecil dan desktop
 - Aksesibilitas dasar: `aria-label`, `focus-visible`, teks link jelas
 - Neobrutalism design: border tegas, shadow block, kontras warna, dan tampilan bold namun bersih
+- Hamburger menu mobile: checkbox input hidden dengan label trigger, ikon burger menggunakan pseudo-element ::before
+- Navigation sticky di desktop, hamburger toggle di mobile dengan centered menu text
+
